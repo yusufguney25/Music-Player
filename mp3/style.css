@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+}
+#progress .times ,.card-footer,.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.volume-container i{
+    margin-right: 10px;
+}
+#music-image{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+li.playing{
+    background-color: #297ca0;
+    color: #fff;
+}
+button.color{
+   background-color:#297ca0;
+   color: #fff;
+}
+input.color{
+    background-color:#297ca0;
+    color: #fff;
+}
